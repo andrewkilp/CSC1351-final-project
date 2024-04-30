@@ -1,0 +1,39 @@
+Documentation
+to run open this project in netbeans and make sure in the run properties has finalProject.Game is the file to run (this will later to be changed to a exe file)
+
+Instructions
+Goal 
+- survive as long as possible 
+
+controls
+movement
+- W to move up 1 tile
+- A to move left 1 tile
+- S to move down 1 tile
+- D to move right 1 tile
+
+Modes
+- G - Attack Mode - click to shoot to where your cursor is
+- H - Harvest Mode - click on a rock or tree to get resources to build (turrets and walls)
+- B - Build Mode - click on the tile you want to place the building selected - if you have enough resources
+	- 1 - selects basic wall to be placed - costs 5 wood - 5 Hp
+	- 2 - selects basic turret to be placed - costs 15 wood - 5 Hp,  2 sttacks/s, 1 damage, 6 tile range
+- U - Upgrade Mode - click on the building you want to upgrade - if you have enough resourses it will go up in teir
+	- rock wall - 3 Rock-  10Hp
+	- rock turret - 5 Rock - 10 hp, 5 attacks/s, 2 damage, 8 tile range
+	- basic Monster wall - 3 Basic Monster Parts - 25hp
+	- basic Monster turret - 5 Basic Monster Parts - 20Hp, 8 attacks/s, 3 damage, 10 tile range
+	- advanced Mosnster wall - 3 Advanced Monster Parts - 50hp
+	- advanced Mosnster turret - 5 Advanced Monster Parts - 40 hp 10 attacks/s, 4 damage, 14 tile range
+	- elite Monster wall - 3 Elite Monster Parts - 100 hp
+	- elite Monster turret - 5 Elite Monster Parts - 60 hp, 20 attacks/s, 5 damage, full map range
+
+HotKeys
+- I - to veiw your current inventory
+
+Monster / wave Info
+First wave spawns 5 seconds after clicking start
+Every consecutive wave spawns every 25 seconds
+
+known bugs
+- at some point when using turrets to many sprites are spawned at it stops running
