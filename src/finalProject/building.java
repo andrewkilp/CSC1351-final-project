@@ -82,8 +82,6 @@ public class building extends Sprite {
                     layout[placeYPos][placeXPos] = type+10;
                     placeBuilding(bp, type);
                     Game.invalidTileUpdater(placeXPos, placeYPos, area);
-                    Game.obstaclePositions.add(bp);
-                    obstacleUpdater(placeXPos, placeYPos, 0);
                 } else {
                     building = new Picture("empty.png");
                 }
@@ -100,7 +98,6 @@ public class building extends Sprite {
                         placeBuilding(bp, type);
                         Game.layoutTileUpdater(placeXPos, placeYPos, 1, type + 10);
                         Game.invalidTileUpdater(placeXPos, placeYPos, area);
-                        obstacleUpdater(placeXPos, placeYPos, 1);
                         turretCount++;
                         startBuildingAttacking();
                     } else {
