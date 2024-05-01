@@ -35,21 +35,16 @@ public class waveManager {
         spawnNextWave();
         }
     });
-    public static Enemy[] spawnNextWave() {
-        difficultyS = difficultyS * 1.1;
+   public static Enemy[] spawnNextWave() {
+        difficultyS = difficultyS + .1;
         int waveDifficulty = (int) difficultyS;
         Random r = new Random();
-        numEnemy = r.nextInt(waveDifficulty*6) +2;
-        if(numEnemy < waveDifficulty+2) {
-            numEnemy = r.nextInt(waveDifficulty*6);
-        }
+        numEnemy = r.nextInt(waveDifficulty*5) +5;
         remainingEnemy = remainingEnemy + numEnemy;
-//        Enemy[] wave = new Enemy[numEnemy];
-        Enemy[] wave = new Enemy[1];
+        Enemy[] wave = new Enemy[numEnemy];
         
         for(int i=0; i<wave.length; i++) {
             int enemyType = r.nextInt(waveDifficulty);
-            enemyType=2;
             if(enemyType > 5) enemyType = maxLevel;
             wave[i] = new Enemy(enemyType, Game.sc);
             wave[i].moveEnemy(enemyType);
