@@ -320,7 +320,7 @@ public class Game {
                             movement(xPos, yPos, 1, 0);
                         }
                     }
-                    case KeyEvent.VK_G -> {
+                    case KeyEvent.VK_Q -> {
                         p.setPicture(p.player);
                         playerMode = 0;
                     }
@@ -331,11 +331,11 @@ public class Game {
                          new buildingPrev(sc);
                         }
                     }
-                    case KeyEvent.VK_U -> {
+                    case KeyEvent.VK_V -> {
                         p.setPicture(p.playerU);
                         playerMode = 2;
                     }
-                    case KeyEvent.VK_H -> {
+                    case KeyEvent.VK_F -> {
                         p.setPicture(p.playerH);
                         playerMode = 3;
                     }
