@@ -13,12 +13,12 @@ movement
 - D to move right 1 tile
 
 Modes
-- G - Attack Mode - click to shoot to where your cursor is
-- H - Harvest Mode - click on a rock or tree to get resources to build (turrets and walls)
+- Q - Attack Mode - click to shoot to where your cursor is
+- F - Harvest Mode - click on a rock or tree to get resources to build (turrets and walls)
 - B - Build Mode - click on the tile you want to place the building selected - if you have enough resources
 	- 1 - selects basic wall to be placed - costs 5 wood - 5 Hp
 	- 2 - selects basic turret to be placed - costs 15 wood - 5 Hp,  2 sttacks/s, 1 damage, 6 tile range
-- U - Upgrade Mode - click on the building you want to upgrade - if you have enough resourses it will go up in teir
+- V - Upgrade Mode - click on the building you want to upgrade - if you have enough resourses it will go up in teir
 	- rock wall - 3 Rock-  10Hp
 	- rock turret - 5 Rock - 10 hp, 5 attacks/s, 2 damage, 8 tile range
 	- basic Monster wall - 3 Basic Monster Parts - 25hp
